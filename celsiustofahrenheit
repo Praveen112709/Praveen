@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    static double celsiustofahernheit(double celsius) {
+
+        return celsius;
+    }
+    public static void main(String[]args) {
+        Scanner scanner = new Scanner(System.in);
+        double temperatureCelsius = scanner.nextDouble();
+        double temperatureFahrenheit = celsiustofahernheit(temperatureCelsius);
+        scanner.close();
+    }
+}
